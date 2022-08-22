@@ -1,0 +1,5 @@
+- I assume that "Gif" refers to a business term so I keep the name (could be a mistake and refer to a "Gift" but I assume the first option)
+- I assume that when creating a user it should be added "temporarily" to the list of users
+- I assume that if userType is not specified, the userType is "Normal"
+- I assume there is a bug in the "gif calculation" when money = 100 for Normal users.
+- Normally in UNIT TESTS the Repository should be mocked so as not to depend on external resources, but in this case, due to the way the exercice it's presented and to simplify, I chose not use a mock.
